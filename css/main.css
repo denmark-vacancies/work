@@ -1,0 +1,357 @@
+/*@Fonts*/
+
+@font-face{
+    font-family: "Open Sans Semibold";
+    src: url(../fonts/OpenSansSemibold.ttf);
+}
+@font-face{
+    font-family: "MyriadPro-Regular";
+    src:url(../fonts/MyriadPro-Regular.ttf)
+}
+@font-face{
+    font-family: "Gotham-Bold";
+    src: url(../fonts/Gotham-Bold.ttf);
+}
+@font-face{
+    font-family: "Gotham Medium Regular";
+    src: url(../fonts/GothamMediumRegular.ttf)
+}
+@font-face{
+    font-family: "RobotoCondensed-Bold";
+    src:url(../fonts/RobotoCondensed-Bold.ttf)
+}
+/*@Fonts*/
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+.first_section{
+    background: url(../img/first_section_img.jpg) center center no-repeat;
+    padding-top: 50px;
+    min-height: 1000px;   
+}
+
+
+.logo_img_wrap{
+    display: inline-block;
+}
+
+.logo_plus_company{
+    position: relative;
+}
+
+
+.company__name>a{
+    color:white;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0px;
+    text-shadow: 1px 1px 2px rgb(34, 5, 5);
+}
+.navigation>li>a{
+    color:white;
+    font-size: 20px;
+    font-family:"MyriadPro-Regular";
+}
+.navigation>li>a:hover{
+    border-bottom: 2px rgba(185, 47, 13, 0.664) solid;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.company__name>a:hover{
+    border-bottom: 2px rgba(185, 47, 13, 0.664) solid;
+    text-decoration: none;
+    transition: .2s;
+}
+
+
+.main__incription{
+    font-family: "Gotham-Bold";
+    margin-top: 250px;
+    text-align: center;
+    color:rgb(150, 37, 37);
+    font-weight: bolder;
+    font-size: 82px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(34, 5, 5);
+    
+}
+.main__incription span{
+    color:white;
+}
+
+.background__opacity{
+    background: rgba(0, 0, 0, 0.274);
+    position: absolute;
+    top: 0;
+    height: 1000px;
+}
+
+body{
+    position: relative;
+}
+
+
+.fixed{
+    font-size: 28px;
+    color: white;
+    font-family:"Open Sans Semibold";
+    margin-top: 50px;
+    
+}
+
+.container-fluid{
+    min-width:350px;
+}
+
+.fixed>p{
+    margin-top:50px;
+    
+    width: fit-content;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.scroll{
+    margin-top: 300px;
+}
+
+.scroll-circle{
+    border: #ffff 1px solid;
+    width: 65px;
+    height: 65px;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 365px;
+    display: table;
+}
+
+
+.arrow_wrap{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.scroll-circle:hover{
+    background: rgba(255, 0, 0, 0.288);
+    transition: .3s;
+}
+.Vacancies{
+    background: #11749e;
+    padding-bottom: 126px;
+}
+
+.navigation-fix{
+    padding-top: 15px;
+    
+}
+.vacancies_heading_wrap{
+    text-align: center;
+    position:relative;
+}
+.vacancies_heading{
+    font-size: 37.55px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-family: "Gotham-Bold";
+    font-weight: bolder;
+    margin-top: -215px;
+
+}
+/*Vacancies*/
+.v-letter{
+    font-size: 247.18px;
+    font-family: "RobotoCondensed-Bold";
+    color:rgba(255, 255, 255, 0.349);
+}
+.feature_items_row{
+    margin-top:130px;
+}
+
+.img_feature{
+    text-align: center;
+}
+
+.img_vacancies_wrap{
+    position: relative;
+    
+}
+.inner_img{
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 50px;
+}
+.Vacancy__name{
+    margin-top:22px;
+    font-size:18px;
+    color:white;
+    font-family: "Gotham-Bold";
+    font-weight: lighter;
+    margin-bottom: 22px;
+}
+.vacancy__description{
+    font-size: 15px;
+    font-family: "MyriadPro-Regular";
+    color:white;
+    font-weight: bolder;
+}
+.vacancy__description>ul{
+    
+    padding-left: 20px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.section3{
+    background: url(../img/contact\ us.png);
+    padding-bottom: 120px;
+}
+
+.additional{
+    margin-bottom: 200px;
+    font-size: 37.55px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-family: "Gotham-Bold";
+    font-weight: bolder;
+    
+}
+
+
+.additional2{
+    font-size: 28.55px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-family: "Gotham-Bold";
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 160px;
+}
+.map__fluid{
+    padding: 0px;
+}
+.map{
+    padding:0px;
+}
+
+.address{
+    color:white;
+    text-transform: uppercase;
+    font-family: "Gotham-Bold";
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+}
+
+.footer{
+    background: black;
+    padding: 100 0 100 0;
+    color:white;
+    text-transform: uppercase;
+    font-family: "Gotham-Bold";
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media*/
+@media(max-width: 768px){
+    .background__opacity{
+        height: 1000px;
+    }
+    .scroll{
+        margin-top: 150px;
+    }
+    .vacancy__description{
+        margin-bottom: 50px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1200px){
+    .navigation-fix{
+        margin-top: 80px;
+        position: absolute;
+        left: auto;
+        min-width: 960px;
+    }
+    .header__row{
+        position: relative;
+        
+    }
+    @media(min-width: 768px) and (max-width: 992px){
+        .navigation-fix{
+            min-width: 720px;
+        }
+    }
+
+}
+@media(max-width: 576px){
+    .first_section{
+        background: url(../img/first_section_img.jpg) top;
+    }
+    .navigation{
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+    }
+    .navigation>li{
+        margin-bottom: 20px;
+        background:rgba(0, 0, 0, 0.322);
+    }
+    .fixed>p{
+        margin-top:80px;    
+    }
+    .background__opacity{
+        height: 1000px;
+    }
+    .margin__fix{
+        margin-top: 70px;
+    }
+    .scroll{
+        margin-top: 30px;
+    }
+}
+@media(max-width:353px){
+    .background__opacity{
+        height: 1070px;
+    }
+    .margin__fix{
+        margin-top: -80px;
+    }
+    .scroll{
+        margin-top: 0px;
+    }
+    .first_section{
+        height: 1070px;
+    }
+}
+
+
+/*@media*/
